@@ -1,0 +1,16 @@
+{
+  "name": "cicdtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx cypress run cypress run --record --key fe66658e-1515-4a31-a59a-3bf430b418bd"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.7.0"
+  }
+}
